@@ -10,8 +10,8 @@ var PhoneNumbers = require('./DATA/PhoneNumbers.json').phn
 const express = require("express")
 const app = express()
 
-app.listen(3000)
-
+app.listen(process.env.PORT || 80)
+console.log('API on!')
 app.get('/', (req, res) => {
     generateProfile(res)
 })
