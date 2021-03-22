@@ -24,3 +24,5 @@ fetch('your-site-here').then(res =>{
     })
 })
 ```
+
+Can't be arsed to set it up yourself? If you're lucky and heroku is still working on my credit, you can use: https://randomuser-host.herokuapp.com/
